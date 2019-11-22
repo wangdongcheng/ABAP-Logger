@@ -631,8 +631,8 @@ class zcl_logger implementation.
       type          = 'W'
       importance    = importance ).
   endmethod.
-  
-  
+
+
   method save_log.
     data log_handles type bal_t_logh.
     data log_numbers type bal_t_lgnm.
